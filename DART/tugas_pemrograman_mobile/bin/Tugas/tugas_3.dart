@@ -2,11 +2,10 @@ import 'dart:io';
 
 void main() {
   print("\n=============Sistem Penilaian Mahasiswa============");
-  // Meminta input skor dari user
+
   stdout.write("Masukkan skor Anda (0-100): ");
   String? input = stdin.readLineSync();
 
-  // Validasi inputan
   if (input == null || input.isEmpty) {
     print("Error: Input tidak boleh kosong.");
     return;
@@ -20,7 +19,6 @@ void main() {
 
   String grade;
 
-  // Menentukan nilai berdasarkan skor inputan menggunakan if-else
   if (skor >= 85 && skor <= 100) {
     grade = "A";
   } else if (skor >= 70 && skor <= 84) {
@@ -33,7 +31,6 @@ void main() {
     grade = "E";
   }
 
-  // Output hasil
   print("Skor Anda: $skor");
   print("Grade Anda: $grade");
 
