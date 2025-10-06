@@ -14,7 +14,7 @@ void main() async {
     3: {'nama': 'Air Mineral', 'harga': 4000},
   };
 
-  print("=== Selamat Datang di Restoran Fauzan ===");
+  print("=== Selamat Datang di Restoran Nurdalifa ===");
 
   // Pilih makanan (bisa lebih dari satu dan bisa input jumlah)
   Map<String, Map<String, dynamic>> pesananMakanan = {};
